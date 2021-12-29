@@ -162,6 +162,7 @@ button {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-color: #c4c4c4;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
@@ -213,6 +214,16 @@ button {
 .main-pr-list .item:not(:last-child) {
   margin-right: 30px;
 }
+/* 
+.icon-antena {
+}
+.icon-clock {
+}
+.icon-diagrama {
+}
+.icon-astronaut {
+} */
+
 /* Второй заголовок */
 .second-header {
   margin-bottom: 10px;
