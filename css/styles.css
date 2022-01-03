@@ -376,6 +376,9 @@ border-color: var(--brand-color);
   padding-top: 60px;
   padding-bottom: 60px;
 }
+.foot-box{
+  display: flex;
+}
 /* Манипуляции с ссылками адреса */
 .address-activity {
   font-style: normal;
@@ -412,6 +415,18 @@ border-color: var(--brand-color);
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--white-color);
+}
+.footer-addreses{
+  margin-right: 70px;
+}
+.basment-head{
+ font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
 }
 /*Портфолио*/
 /* Кнопки портфолио */
