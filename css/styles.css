@@ -419,6 +419,7 @@ border-color: var(--brand-color);
 .footer-addreses{
   margin-right: 70px;
 }
+
 .basment-head{
  font-style: normal;
 font-weight: bold;
@@ -428,6 +429,32 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
 }
+.social-media-basement{
+  display: flex;
+margin-left: auto;
+margin-right: auto;
+justify-items: left;
+margin-top: 20px;
+}
+
+.social-link-basement{
+display: flex;
+justify-content: center;
+  border: none;
+  border-radius: 50%;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  fill: var(--white-color);
+  background-color:rgba(255, 255, 255, 0.1); ;
+}
+
+.social-link-basement:hover,.social-link-basement:focus{
+  fill: var(--white-color);
+  background-color: var(--brand-color);
+  border-color: var(--brand-color);
+}
+
 /*Портфолио*/
 /* Кнопки портфолио */
 .button-row {
