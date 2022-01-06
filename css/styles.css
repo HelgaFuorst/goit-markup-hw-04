@@ -351,11 +351,11 @@ margin-right: -10px;
 }
 .logo-row{
   display: flex;
-margin-right: 30px;
 }
 
 .logo-item {
   display: flex;
+  margin-right: 30px;
   width: 170px;
   height: 92px;
   justify-content: center;
@@ -365,7 +365,7 @@ margin-right: 30px;
   border-radius: 4px;
   fill: var(--icon-color);
 }
-.logo-row:not(:last-child){
+.logo-item:not(:last-child){
   margin-right: 30px;
 }
 
