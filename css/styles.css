@@ -311,7 +311,6 @@ border-radius: 4px;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-
 .social-media {
 display: flex;
 margin-left: auto;
@@ -321,8 +320,6 @@ padding-right: 32px;
 padding-left: 32px;
 margin-right: -10px;
 }
-
-
 .social-link{
   display: flex;
   justify-content: center;
@@ -334,7 +331,6 @@ margin-right: -10px;
   height: 44px;
   fill: var(--icon-color);
 }
-
 .social-link:hover,.social-link:focus{
   fill: var(--white-color);
   background-color: var(--brand-color);
@@ -342,8 +338,6 @@ margin-right: -10px;
   border-color: var(--brand-color);
   border-radius: 50%;
 }
-
-
 .clients-row {
   display: flex;
   justify-content: space-between;
@@ -351,11 +345,10 @@ margin-right: -10px;
 }
 .logo-row{
   display: flex;
+margin-left: 30px;
 }
-
 .logo-item {
   display: flex;
-  margin-right: 30px;
   width: 170px;
   height: 92px;
   justify-content: center;
@@ -365,10 +358,6 @@ margin-right: -10px;
   border-radius: 4px;
   fill: var(--icon-color);
 }
-.logo-item:not(:last-child){
-  margin-right: 30px;
-}
-
 .logo-item:hover,.logo-item:focus{
 fill: var(--brand-color);
 border-color: var(--brand-color);
